@@ -1,0 +1,46 @@
+.thumbnail{
+    width:300px;
+
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width:1000px;
+    gap: 20px;
+}
+
+.event{
+    padding: 5px;
+    background-color: aliceblue;
+    width: 100px;
+    border-radius: 10px;
+    font-size:13px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+}
+
+.event-div{
+    position: absolute;
+    top: 0%;
+    left: 5%;
+}
+
+.card-first{
+    position: relative;
+}

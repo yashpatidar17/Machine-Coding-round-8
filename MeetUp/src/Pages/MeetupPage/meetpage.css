@@ -1,0 +1,97 @@
+.speaker{
+    width:70px;
+    height: 70px;
+    border-radius: 80px;
+}
+
+.meetup-page{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+/* .meetup-page-first, .location-info-card{
+    display: inline-block;
+    vertical-align: top;
+} */
+.meetup-page-first{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+.hosting{
+    display: flex;
+    flex-direction: column;
+    margin-bottom:15px;
+}
+
+.AD{
+    display: flex;
+    gap: 5px;
+}
+
+.AD-card{
+    display: flex;
+    flex-direction: column;
+}
+
+.AD-card-first{
+    display: flex;
+    flex-direction: column;
+}
+.tags{
+    display: flex;
+    flex-direction: column;
+}
+
+.tags-first{
+    display: flex;
+    gap: 20px;
+}
+
+.time{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    gap: 10px;
+}
+
+.price ::before{
+    content:U+20B9
+}
+
+.speaker-card{
+    display: flex;
+    gap: 20px;
+}
+
+.rsvp{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 10px;
+    width: 150px;
+    border-radius:10px;
+    justify-content: center;
+    background-color: rgb(196, 67, 67);
+}
+
+.location-info-card{
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+    background-color: azure;
+    border-radius: 10px;
+}
+
+.speaker-card-first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: azure;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    width: 150px;
+    padding: 10px;
+}
