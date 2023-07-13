@@ -6,7 +6,7 @@ export const MeetupCard = () => {
   const { meetupData } = useContext(DataContext);
   return (
     <div className="card-container">
-      <div className="navbar-container">
+      <div className="navbar-container-first">
         <div>
           <h2>Meetup Events</h2>
         </div>

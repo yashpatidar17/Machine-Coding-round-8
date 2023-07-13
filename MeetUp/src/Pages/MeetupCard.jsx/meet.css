@@ -8,6 +8,12 @@
     flex-direction: column;
 }
 
+.navbar-container-first{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
 .card{
     display: flex;
     align-items: center;
